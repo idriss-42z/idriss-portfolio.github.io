@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de AHOUARI Idriss | Étudiant en BTS SIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animation de fond -->
+    <div class="bg-animation">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <a href="#" class="logo"><i class="fas fa-code"></i>Ahouari Idriss</a>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#portfolio">Projets</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="CV-IDRISS-1.pdf" target="_blank">CV</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Hero -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Bonjour, je suis <span>Ahouari Idriss</span></h1>
+            <p>Étudiant en BTS SIO , passioné par l'informatique et les nouvelles technologies .</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="cta-button">Me contacter</a>
+                <a href="#portfolio" class="cta-button secondary-button">Voir mon travail</a>
+            </div>
+        </div>
+        <div class="hero-image"></div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">À propos de <span>moi</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="idriss.jpg" alt="Sophie Laurent">
+                </div>
+                <div class="about-text">
+                    <h3>Étudiant en BTS SIO au lycée René Descartes à Champs-sur-Marne</h3>
+                    <p>Je suis un étudiant passionné , en BTS SIO option SISR, spécialisé dans l’administration des systèmes et réseaux. Je développe mes compétences en infrastructures, cybersécurité et virtualisation, avec un intérêt marqué pour l’automatisation et les technologies cloud.</p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <p><strong>Nom :</strong> AHOUARI Idriss</p>
+                            <p><strong>Email :</strong> ahouari.idriss@gmail.com</p>
+                        </div>
+                        <div class="detail-item">
+                            <p><strong>Expérience :</strong> Aucune</p>
+                            <p><strong>Freelance :</strong> Disponible</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="section">
+    <div class="container">
+        <h2 class="section-title">Mes <span>compétences</span></h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Administration Réseau</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Configuration Réseaux (Cisco, VLAN, DHCP, DNS)</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%; background: var(--primary);"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Sécurité Réseau (Pare-feu, VPN, ACL)</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%; background: var(--accent);"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Systèmes</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Windows Server (AD, GPO, DNS, DHCP)</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%; background: var(--success);"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Linux (Debian, Ubuntu, commandes CLI)</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%; background: var(--warning);"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3>Outils & Virtualisation</h3>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>VMware / VirtualBox</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%; background: var(--danger);"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>GLPI, OCS Inventory, Wireshark</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 70%; background: var(--secondary);"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Section Portfolio -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Mon <span>Projets</span></h2>
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="web">Réseau</button>
+                <button class="filter-btn" data-filter="app">Systeme</button>
+                <button class="filter-btn" data-filter="design">Sécurité</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Projet 1">
+                    <div class="portfolio-overlay">
+                        <h3>Plateforme E-commerce</h3>
+                        <p>Site e-commerce complet avec React et Node.js</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Projet 2">
+                    <div class="portfolio-overlay">
+                        <h3>Application de Fitness</h3>
+                        <p>Application mobile React Native avec suivi d'activité</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" alt="Projet 3">
+                    <div class="portfolio-overlay">
+                        <h3>Identité Visuelle</h3>
+                        <p>Création de logo et charte graphique</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1064&q=80" alt="Projet 4">
+                    <div class="portfolio-overlay">
+                        <h3>Dashboard Analytique</h3>
+                        <p>Tableau de bord avec visualisation de données</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Projet 5">
+                    <div class="portfolio-overlay">
+                        <h3>Application Météo</h3>
+                        <p>Application météo avec prévisions en temps réel</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="design">
+                    <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Projet 6">
+                    <div class="portfolio-overlay">
+                        <h3>Redesign d'Application</h3>
+                        <p>Refonte complète de l'interface utilisateur</p>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Expérience -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Mon <span>expérience</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2 Juin 2024 - 4 Juillet 2024</div>
+                    <div class="timeline-content">
+                        <h3>Stage chez LOGIKART</h3>
+                        <h4>LOGIKART, Paris</h4>
+                        <p>Accompagnement de support , Assistance aux utilisateurs , Diagnostic et mise en oeuvre des solutions , Rédaction de rapports d'interventions , Suivi d'incidents</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2018 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>rien</h3>
+                        <h4>rien</h4>
+                        <p>rien</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2016 - 2018</div>
+                    <div class="timeline-content">
+                        <h3>rien</h3>
+                        <h4>rien</h4>
+                        <p>rien</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Me <span>contacter</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Discutons de votre projet</h3>
+                    <p>Je suis toujours intéressée par de nouvelles opportunités. N'hésitez pas à me contacter pour discuter de votre projet ou simplement pour dire bonjour !</p>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>ahouari.idriss@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+33 7 66 50 22 36</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localisation</h4>
+                            <p>Champs-sur-Marne, France</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Sujet">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Votre message" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="logo"><i class="fas fa-code"></i>Ahouari Idriss</a>
+                    <p></p>
+                </div>
+                <div class="footer-links">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#skills">Compétences</a></li>
+                        <li><a href="#portfolio">Projets/a></li>
+                        <li><a href="#experience">Expérience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Réseaux sociaux</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ahouari Idriss. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
